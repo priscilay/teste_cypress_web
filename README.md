@@ -1,4 +1,4 @@
-\# Projeto de Automação de Testes com Cypress e Cucumber no site (https://www.automationexercise.com/) <br>
+### Projeto de Automação de Testes com Cypress e Cucumber no site (https://www.automationexercise.com/) <br>
 
 <br>
 Este projeto contém casos de teste de Crypress com Cucumber e BDD para testar a funcionalidade da aplicação web (https://www.automationexercise.com/). <br>
