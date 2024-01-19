@@ -1,3 +1,4 @@
+/// <reference types="Cypress" />
 import loc from '../locators/products'
 
 class TelaProducts {

@@ -1,0 +1,50 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validacao em um carrinho de compras online",
+    "line": 2,
+    "id": "validacao-em-um-carrinho-de-compras-online",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "validacao-em-um-carrinho-de-compras-online;realizar-inclusao-de-produtos-no-carrinho-compras-com-sucesso",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Realizar inclusao de produtos no carrinho compras com sucesso",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que cliquei no menu \"Products\"",
+            "result": {
+              "status": "undefined",
+              "duration": 118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "adicionar ao carrinho dress e jeans",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "devo validar se ambos estao no carrinho",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

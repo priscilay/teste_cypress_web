@@ -7,7 +7,12 @@
 const Products = {
     pesquisa:{
         labelBusca: '#search_product',
-        lupaPesquisa: '#submit_search',
+        lupaPesquisa: '#submit_search'
+    },
+    carrinho:{
+        xpathGenerico: produto => `a[data-product-id='${produto}']`
     }
+
+    
 }
 export default Products

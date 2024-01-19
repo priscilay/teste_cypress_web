@@ -1,12 +1,10 @@
+/// <reference types="Cypress" />
 import loc from '../locators/login'
 
 class TelaLogin {
 
     acessarSite(url){
-        cy.visit(url)
-        cy.clearAllCookies()
-        cy.clearAllLocalStorage()
-        cy.clearAllSessionStorage()
+        cy.visit('https://www.automationexercise.com/')
     }
 
     loginSite(email, senha){

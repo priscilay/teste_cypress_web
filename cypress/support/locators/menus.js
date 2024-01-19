@@ -5,7 +5,8 @@
  */
 
 const Menus = {
-    products: '//a[@href="/products"]'
+    products: '//a[@href="/products"]',
+    cart: '//a[contains(.," Cart")][1]'
 }
 
 export default Menus

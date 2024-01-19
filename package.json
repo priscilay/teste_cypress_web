@@ -22,12 +22,15 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepdefinitions": false,
-    "stepDefinitions": "cypress/e2e/cucumber/step_definitions/*"
+    "StepDefinitions": "cypress/e2e/cucumber/step_definitions/*"
   },
   "dependencies": {
     "@xmldom/xmldom": "^0.8.10",
+    "browserify": "^17.0.0",
+    "core-js": "^3.35.0",
     "dotenv": "^16.3.1",
-    "nodejs": "^0.0.0",
+    "fabric": "^5.3.0",
+    "multiple-cucumber-html-reporter": "^3.6.1",
     "xpath": "^0.0.34"
   }
 }

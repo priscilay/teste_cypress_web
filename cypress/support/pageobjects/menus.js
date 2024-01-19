@@ -1,3 +1,4 @@
+/// <reference types="Cypress" />
 import loc from '../locators/menus'
 
 class Menus {
@@ -7,6 +8,10 @@ class Menus {
         cy.xpath(loc.products)
         .click()
         break;
+      case 'Cart':
+        cy.xpath(loc.cart)
+        .click() 
+        break; 
         }
     }
 }

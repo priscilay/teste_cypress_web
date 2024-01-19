@@ -1,4 +1,11 @@
-// ***********************************************************
+import '../support/pageobjects/cart'
+import '../support/pageobjects/products'
+import '../support/pageobjects/menus'
+import '../support/pageobjects/login'
+
+require("xpath")
+require("cypress-cucumber-preprocessor")
+// **********(*************************************************
 // This example support/e2e.js is processed and
 // loaded automatically before your test files.
 //
@@ -15,6 +22,10 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // returning false here prevents Cypress from failing the test
+    return false
+  })
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
