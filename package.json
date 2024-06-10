@@ -4,7 +4,8 @@
   "description": "Teste realizado para processo seletivo",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npx cypress open",
+    "test:run": "npx cypress run"
   },
   "repository": {
     "type": "git",
